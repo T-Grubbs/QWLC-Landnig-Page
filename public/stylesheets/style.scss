@@ -1,8 +1,8 @@
 body {
-  padding: 50px;
+
+
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
-
 
 a {
   color: #00B7FF;
@@ -26,8 +26,32 @@ a {
 }
 
 
-.sign-up-div{
+.sign-up-div {
   background-color: teal;
-  margin:0;
+  padding: 100px 0 0 850px;
+  height: auto;
+  background-image: url('../images/FitnessCouple.png');
+  background-repeat: no-repeat;
+ 
+  
+}
+
+* {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.signup-form{
+  border:2px solid black;
+  border-radius: 15px;
+  background-color: white;
+  padding: 30px;
+  height: auto;
+  width: 30vw;
 
 }
+
+.form-float{
+  float: right;
+}
+
