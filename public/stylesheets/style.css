@@ -1,0 +1,25 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+
+a {
+  color: #00B7FF; }
+
+.company-logo {
+  width: 88px;
+  height: 44px;
+  float: left; }
+
+.navBar {
+  margin: 0 100px 0 100px; }
+
+.nav-btn {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between; }
+
+.sign-up-div {
+  background-color: teal;
+  margin: 0; }
+
+/*# sourceMappingURL=style.css.map */
