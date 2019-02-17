@@ -28,11 +28,13 @@ a {
 
 .sign-up-div {
   background-color: teal;
-  padding: 100px 0 0 850px;
+  padding: 100px 0 50px 850px;
   height: auto;
   background-image: url('../images/FitnessCouple.png');
   background-repeat: no-repeat;
- 
+  background-size: contain;
+  
+  
   
 }
 
@@ -55,3 +57,51 @@ a {
   float: right;
 }
 
+.navPad{
+  padding: 20px 60px;
+}
+
+h1{
+  padding: 0;
+  margin: 0;
+}
+
+.red-text{
+  color: red;
+}
+
+.signup-btn{
+  background-color: red;
+  color: white;
+  font-display: bold;
+  width: 370px;
+  text-align: center;
+  height: 35px;
+  
+}
+
+.qwlc-div {
+  padding: 20px 0 20px 213px;
+  width: 772px;
+  font-size: 1.2em;
+  background-image: url('../images/qwlc-pills-people.png.psd');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  
+}
+
+.get-started-btn {
+
+  background-color: red;
+  color: white;
+  font-display: bold;
+  width: 270px;
+  text-align: center;
+  height: 35px;
+
+}
+
+.how-it-works-div {
+  backgound-color: lightgrey;
+}
