@@ -53,6 +53,12 @@ h1 {
 .blue-text {
   color: blue; }
 
+.grey-text {
+  color: grey; }
+
+.grey-background {
+  background-color: lightgray; }
+
 .signup-btn {
   background-color: red;
   color: white;
@@ -65,7 +71,11 @@ h1 {
   background-color: blue;
   color: white;
   display: flex;
-  justify-items: center; }
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  border: 2px solid white;
+  width: 20vw; }
 
 .qwlc-div {
   padding: 20px 0 20px 213px;
@@ -107,14 +117,83 @@ h1 {
   padding: 75px 136px 0px 0px; }
 
 .pill-bottle {
-  height: 105vh;
-  width: 39vw; }
+  height: 60vh;
+  width: 32vw; }
 
 .pill-bottle-pic {
-  padding: 0px 0px 0px 170px; }
+  padding: 0px 0px 0px 350px; }
 
 .center-items {
   display: flex;
-  justify-items: center; }
+  justify-content: center; }
+
+.sos-div {
+  background-color: lightgrey;
+  padding: 25px 25px 25px 25px; }
+
+.sos-div p {
+  width: 25vw;
+  font-size: 1em; }
+
+.inner-sos {
+  width: 60vw; }
+
+.sos-div-with-image {
+  display: flex;
+  justify-content: space-evenly; }
+
+.beforeAfter-img {
+  width: 40vw;
+  height: 44vh; }
+
+.meals {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 37vw; }
+
+.meal-pic {
+  width: 18vw;
+  height: 22vh;
+  padding: 10px; }
+
+.red-section {
+  background-color: red;
+  color: white;
+  padding: 20px 20px 20px 20px; }
+
+.thinkingWoman {
+  height: 50vh; }
+
+.red-section-p {
+  width: 22vw; }
+
+.links {
+  list-style: none;
+  color: gray;
+  padding: 0px;
+  margin: 0px; }
+
+.link-div {
+  padding: 20px 0px 0px 0px;
+  display: flex;
+  justify-content: space-evenly; }
+
+.footer {
+  background-color: rgba(211, 211, 211, 0.849);
+  color: gray;
+  padding: 25px 50px 10px 50px; }
+
+.footer p {
+  width: 44vw; }
+
+.contact-icons {
+  display: flex;
+  justify-content: flex-end; }
+
+.icon-padding {
+  padding: 15px;
+  font-size: 2em;
+  text-decoration-style: none; }
 
 /*# sourceMappingURL=style.css.map */
