@@ -50,6 +50,9 @@ h1 {
 .red-text {
   color: red; }
 
+.blue-text {
+  color: blue; }
+
 .signup-btn {
   background-color: red;
   color: white;
@@ -57,6 +60,12 @@ h1 {
   width: 370px;
   text-align: center;
   height: 35px; }
+
+.blue-btn {
+  background-color: blue;
+  color: white;
+  display: flex;
+  justify-items: center; }
 
 .qwlc-div {
   padding: 20px 0 20px 213px;
@@ -76,6 +85,36 @@ h1 {
   height: 35px; }
 
 .how-it-works-div {
-  backgound-color: lightgrey; }
+  background-color: lightgrey; }
+
+.span-details {
+  width: 30vw; }
+
+.center-title {
+  text-align: center;
+  padding-top: 40px; }
+
+.flex-divs {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center; }
+
+.flex-divs h4 {
+  color: red; }
+
+.three-steps {
+  width: 40vw;
+  padding: 75px 136px 0px 0px; }
+
+.pill-bottle {
+  height: 105vh;
+  width: 39vw; }
+
+.pill-bottle-pic {
+  padding: 0px 0px 0px 170px; }
+
+.center-items {
+  display: flex;
+  justify-items: center; }
 
 /*# sourceMappingURL=style.css.map */
